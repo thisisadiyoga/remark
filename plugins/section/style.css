@@ -1,0 +1,7 @@
+a.remark-section {
+  color: var(--nbkclr);
+}
+a.remark-section.current {
+  color: var(--bbkclr);
+  font-weight: 500; 
+}

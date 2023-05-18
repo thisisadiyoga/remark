@@ -33,6 +33,20 @@ target.highlighter = function () {
   bundleHighlighter('src/remark/highlighter.js');
 };
 
+target.bundlehljs = function () {
+  var config = require('./package.json').config;
+  if (config && config.highlighter === false) {
+    console.log('Bundling empty highlighter skeleton...');
+    'module.exports = {styles:[],engine:{highlightBlock:function(){}}};'.to(
+      'src/remark/highlighter.js',
+    );
+    return;
+  }
+
+  console.log('Bundling highlighter...');
+  bundleHighlighter('src/remark/highlighter.js');
+};
+
 target.test = function () {
   target['lint']();
   target['bundle']();
@@ -157,13 +171,32 @@ function bundleHighlighter(target) {
   var highlightjs = 'vendor/highlight.js/src/',
     resources = {
       HIGHLIGHTER_STYLES: JSON.stringify(
-        ls(highlightjs + 'styles/*.css').reduce(mapStyle, {}),
+        ls(highlightjs + 'styles/*.css')
+        // Filter only the necessary languages given in package.json
+        .filter(function (file) {
+          var styling = path.basename(file, path.extname(file));
+          if(config && config.highlighter && config.highlighter.styles) {
+            return config.highlighter.styles.indexOf(styling) >= 0;
+          } else {
+            return true;
+          }
+        })
+        .reduce(mapStyle, {}),
       ),
       HIGHLIGHTER_ENGINE: cat(highlightjs + 'highlight.js'),
       HIGHLIGHTER_LANGUAGES: Array.prototype.sort
         .call(ls(highlightjs + 'languages/*.js'), function (a, b) {
           // Other languages depend on cpp, so put it first
           return a.indexOf('cpp.js') !== -1 ? -1 : 0;
+        })
+        // Filter only the necessary languages given in package.json
+        .filter(function (file) {
+          var language = path.basename(file, path.extname(file));
+          if(config && config.highlighter && config.highlighter.languages) {
+            return config.highlighter.languages.indexOf(language) >= 0;
+          } else {
+            return true;
+          }
         })
         .map(function (file) {
           var language = path.basename(file, path.extname(file));

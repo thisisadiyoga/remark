@@ -1,0 +1,40 @@
+.cards .card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.cards .card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.cards .content {
+  padding: 10px;
+}
+.cards .tight p {
+  margin-bottom: 0;
+}
+
+.cards .card p, .cards .card li {
+  font-size: 18px;
+}
+.card ul:last-child,
+.card ol:last-child {
+  margin-bottom: 0px;
+}
+
+.cards .bg-r {
+  background-color: var(--wrdclr);
+}
+.cards .bg-b {
+  background-color: var(--wblclr);
+}
+.cards .bg-g {
+  background-color: var(--wgnclr);
+}
+.cards .bg-y {
+  background-color: var(--wylclr);
+}
+.cards .bg-w {
+  background-color: #FFF;
+}

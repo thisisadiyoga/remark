@@ -1,0 +1,74 @@
+/* Absolute Size */
+.fonts .font12 * { font-size: 12px; }
+.fonts .font14 * { font-size: 14px; }
+.fonts .font16 * { font-size: 16px; }
+.fonts .font18 * { font-size: 18px; }
+.fonts .font20 * { font-size: 20px; }
+.fonts .font22 * { font-size: 22px; }
+.fonts .font24 * { font-size: 24px; }
+.fonts .font26 * { font-size: 26px; }
+.fonts .font28 * { font-size: 28px; }
+.fonts .font30 * { font-size: 30px; }
+.fonts .font32 * { font-size: 32px; }
+.fonts .font34 * { font-size: 34px; }
+.fonts .font36 * { font-size: 36px; }
+.fonts .font38 * { font-size: 38px; }
+.fonts .font40 * { font-size: 40px; }
+.fonts .font42 * { font-size: 42px; }
+.fonts .font44 * { font-size: 44px; }
+.fonts .font46 * { font-size: 46px; }
+.fonts .font48 * { font-size: 48px; }
+.fonts .font50 * { font-size: 50px; }
+.fonts .font52 * { font-size: 52px; }
+.fonts .font54 * { font-size: 54px; }
+.fonts .font56 * { font-size: 56px; }
+.fonts .font58 * { font-size: 58px; }
+.fonts .font60 * { font-size: 60px; }
+
+/* Note Size */
+.fonts .note8  { font-size:  8px; color: var(--dprclr); font-style: italic; }
+.fonts .note10 { font-size: 10px; color: var(--dprclr); font-style: italic; }
+.fonts .note12 { font-size: 12px; color: var(--dprclr); font-style: italic; }
+.fonts .note14 { font-size: 14px; color: var(--dprclr); font-style: italic; }
+.fonts .note16 { font-size: 16px; color: var(--dprclr); font-style: italic; }
+.fonts .note18 { font-size: 18px; color: var(--dprclr); font-style: italic; }
+.fonts .note20 { font-size: 20px; color: var(--dprclr); font-style: italic; }
+.fonts .note22 { font-size: 22px; color: var(--dprclr); font-style: italic; }
+.fonts .note24 { font-size: 24px; color: var(--dprclr); font-style: italic; }
+.fonts .note26 { font-size: 26px; color: var(--dprclr); font-style: italic; }
+.fonts .note28 { font-size: 28px; color: var(--dprclr); font-style: italic; }
+.fonts .note30 { font-size: 30px; color: var(--dprclr); font-style: italic; }
+
+/* Underline */
+.fonts .uline  { text-decoration: underline; }
+.fonts .uline1 { text-decoration: none; border-bottom: 1px solid black; }
+.fonts .uline2 { text-decoration: none; border-bottom: 2px solid black; }
+
+/* Text Align */
+.fonts .tr { text-align: right; }
+.fonts .tl { text-align: left ; }
+
+/* Colour */
+.fonts .brdtxt{ color: var(--brdclr); }  /* text: black red    */
+.fonts .drdtxt{ color: var(--drdclr); }  /* text: dark  red    */
+.fonts .nrdtxt{ color: var(--nrdclr); }  /* text: std   red    */
+.fonts .lrdtxt{ color: var(--lrdclr); }  /* text: light red    */
+.fonts .wrdtxt{ color: var(--wrdclr); }  /* text: white red    */
+
+.fonts .bgntxt{ color: var(--bgnclr); }  /* text: black green  */
+.fonts .dgntxt{ color: var(--dgnclr); }  /* text: dark  green  */
+.fonts .ngntxt{ color: var(--ngnclr); }  /* text: std   green  */
+.fonts .lgntxt{ color: var(--lgnclr); }  /* text: light green  */
+.fonts .wgntxt{ color: var(--wgnclr); }  /* text: white green  */
+
+.fonts .bbltxt{ color: var(--bblclr); }  /* text: black blue   */
+.fonts .dbltxt{ color: var(--dblclr); }  /* text: dark  blue   */
+.fonts .nbltxt{ color: var(--nblclr); }  /* text: std   blue   */
+.fonts .lbltxt{ color: var(--lblclr); }  /* text: light blue   */
+.fonts .wbltxt{ color: var(--wblclr); }  /* text: white blue   */
+
+.fonts .byltxt{ color: var(--bylclr); }  /* text: black yellow */
+.fonts .dyltxt{ color: var(--dylclr); }  /* text: dark  yellow */
+.fonts .nyltxt{ color: var(--nylclr); }  /* text: std   yellow */
+.fonts .lyltxt{ color: var(--lylclr); }  /* text: light yellow */
+.fonts .wyltxt{ color: var(--wylclr); }  /* text: white yellow */

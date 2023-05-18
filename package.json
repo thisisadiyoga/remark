@@ -26,5 +26,23 @@
   },
   "scripts": {
     "test": "node make test"
+  },
+  "config": {
+    "highlighter": {
+      "languages": [
+        "cpp",
+        "java",
+        "javascript",
+        "jshell",
+        "html",
+        "cql",
+        "pgsql",
+        "sql",
+        "python",
+        "pythonrepl"
+      ],
+      "styles": [
+      ]
+    }
   }
 }

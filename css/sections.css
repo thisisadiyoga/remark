@@ -1,0 +1,61 @@
+/* Title & Subtitle */
+.titles h1, .sections h1 {
+  font-size: 120px;
+}
+.titles h2, .sections h2 {
+  font-size: 100px;
+}
+.titles h3, .sections h3 {
+  font-size: 60px;
+}
+.titles h2, .sections h2 {
+  font-weight: 300;
+}
+
+/* Section */
+.subsections {
+  margin: 20px 30px 0 0;
+  height: 80%;
+}
+.subsections h3 {
+  color: var(--nbkclr);
+  font-size: 24px;
+}
+.subsections h4 {
+  color: var(--lbkclr);
+  padding-left: 10px;
+  font-style: italic;
+  font-size: 20px;
+}
+.subsections h3:last-of-type,
+.subsections h4:last-child {
+  color: var(--bbkclr);
+}
+
+.sections h1 {
+  border-bottom: 1px solid var(--nbkclr);
+}
+
+.end {
+  background-color: #222;
+  color: #fff;
+}
+.end .remark-inline-code {
+  font-size: 48px;
+  font-weight: 700;
+}
+.end .remark-slide-number {
+  display: none;
+}
+
+.full-b {
+  background-color: #000;
+  color: #fff;
+}
+.full-b .remark-inline-code {
+  font-size: 48px;
+  font-weight: 700;
+}
+.full-b .remark-slide-number {
+  display: none;
+}

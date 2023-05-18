@@ -16,6 +16,10 @@ Dom.prototype.getElementById = function (id) {
   return document.getElementById(id);
 };
 
+Dom.prototype.getElementsByClassName = function (className) {
+  return document.getElementsByClassName(className);
+};
+
 Dom.prototype.getLocationHash = function () {
   return window.location.hash;
 };

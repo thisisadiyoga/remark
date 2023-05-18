@@ -16,6 +16,7 @@ function Api (dom) {
   this.dom = dom || new Dom();
   this.macros = macros;
   this.version = resources.version;
+  this.extPlugins = [];
 }
 
 // Expose highlighter to allow enumerating available styles and
@@ -30,6 +31,12 @@ Api.prototype.convert = function (markdown) {
   return converter.convertMarkdown(content, {}, true);
 };
 
+// Register external plugins
+Api.prototype.register = function(init) {
+  var self = this;
+  self.extPlugins.push(init);
+};
+
 // Creates slideshow initialized from options
 Api.prototype.create = function (options, callback) {
   var self = this
@@ -37,6 +44,7 @@ Api.prototype.create = function (options, callback) {
     , slideshow
     , slideshowView
     , controller
+    , pluginIndex
     ;
 
   options = applyDefaults(this.dom, options);
@@ -48,7 +56,14 @@ Api.prototype.create = function (options, callback) {
     slideshowView = new SlideshowView(events, self.dom, options, slideshow);
     controller = options.controller || new DefaultController(events, self.dom, slideshowView, options.navigation);
     if (typeof callback === 'function') {
-      callback(slideshow);
+      // Add options to the callback
+      callback(slideshow, options);
+    }
+  
+    // Call registered external plugins to be initialized
+    // Pass the options to the external plugins to be used
+    for (pluginIndex=0; pluginIndex<self.extPlugins.length; pluginIndex++) {
+      self.extPlugins[pluginIndex](options, slideshow);
     }
   });
 

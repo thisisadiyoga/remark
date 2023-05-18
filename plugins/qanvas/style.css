@@ -1,0 +1,89 @@
+.remark-slide-canvas-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+  pointer-events: none;
+}
+.remark-slide-canvas-pen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: 99;
+}
+.remark-slide-canvas-highlighter {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  opacity: 0.3;
+  z-index: 99;
+}
+.remark-canvas-button {
+  position: fixed;
+  bottom: 5px;
+  left: 20px;
+  z-index: 10;
+}
+
+.remark-canvas-button-button {
+  margin: 2px;
+  padding: 2px;
+  cursor: pointer;
+}
+.remark-canvas-button-small {
+  font-size: 16px;
+}
+.remark-canvas-button-medium {
+  font-size: 20px;
+}
+.remark-canvas-button-large {
+  font-size: 24px;
+}
+.remark-canvas-button-show-hide {
+  opacity: 0.5;
+}
+.remark-canvas-button-show-hide:hover {
+  opacity: 1;
+}
+.remark-canvas-button-separator {
+  opacity: 0.1;
+  cursor: default;
+}
+.remark-canvas-button-draw-off {
+  opacity: 0.2;
+  cursor: default;
+}
+.remark-canvas-button-draw-on {
+  opacity: 1;
+}
+
+.canvas-show {
+  pointer-events: all;
+}
+.canvas-hide {
+  pointer-events: none;
+}
+.container-show {
+  z-index: 3;
+}
+
+
+@media print {
+  .remark-slide-canvas {
+    top: -15px;
+    left: 0;
+    display: block;
+    z-index: 1000;
+  }
+  .remark-canvas-button {
+    display: none;
+  }
+}

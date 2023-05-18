@@ -1,0 +1,517 @@
+/* Columns with Padding */
+.layout .col4  { float:left; display:block; width: 1%; padding-right:3%; }
+.layout .col5  { float:left; display:block; width: 2%; padding-right:3%; }
+.layout .col6  { float:left; display:block; width: 3%; padding-right:3%; }
+.layout .col7  { float:left; display:block; width: 4%; padding-right:3%; }
+.layout .col8  { float:left; display:block; width: 5%; padding-right:3%; }
+.layout .col9  { float:left; display:block; width: 6%; padding-right:3%; }
+.layout .col10 { float:left; display:block; width: 7%; padding-right:3%; }
+.layout .col11 { float:left; display:block; width: 8%; padding-right:3%; }
+.layout .col12 { float:left; display:block; width: 9%; padding-right:3%; }
+.layout .col13 { float:left; display:block; width:10%; padding-right:3%; }
+.layout .col14 { float:left; display:block; width:11%; padding-right:3%; }
+.layout .col15 { float:left; display:block; width:12%; padding-right:3%; }
+.layout .col16 { float:left; display:block; width:13%; padding-right:3%; }
+.layout .col17 { float:left; display:block; width:14%; padding-right:3%; }
+.layout .col18 { float:left; display:block; width:15%; padding-right:3%; }
+.layout .col19 { float:left; display:block; width:16%; padding-right:3%; }
+.layout .col20 { float:left; display:block; width:17%; padding-right:3%; }
+.layout .col21 { float:left; display:block; width:18%; padding-right:3%; }
+.layout .col22 { float:left; display:block; width:19%; padding-right:3%; }
+.layout .col23 { float:left; display:block; width:20%; padding-right:3%; }
+.layout .col24 { float:left; display:block; width:21%; padding-right:3%; }
+.layout .col25 { float:left; display:block; width:22%; padding-right:3%; }
+.layout .col26 { float:left; display:block; width:23%; padding-right:3%; }
+.layout .col27 { float:left; display:block; width:24%; padding-right:3%; }
+.layout .col28 { float:left; display:block; width:25%; padding-right:3%; }
+.layout .col29 { float:left; display:block; width:26%; padding-right:3%; }
+.layout .col30 { float:left; display:block; width:27%; padding-right:3%; }
+.layout .col31 { float:left; display:block; width:28%; padding-right:3%; }
+.layout .col32 { float:left; display:block; width:29%; padding-right:3%; }
+.layout .col33 { float:left; display:block; width:30%; padding-right:3%; }
+.layout .col34 { float:left; display:block; width:31%; padding-right:3%; }
+.layout .col35 { float:left; display:block; width:32%; padding-right:3%; }
+.layout .col36 { float:left; display:block; width:33%; padding-right:3%; }
+.layout .col37 { float:left; display:block; width:34%; padding-right:3%; }
+.layout .col38 { float:left; display:block; width:35%; padding-right:3%; }
+.layout .col39 { float:left; display:block; width:36%; padding-right:3%; }
+.layout .col40 { float:left; display:block; width:37%; padding-right:3%; }
+.layout .col41 { float:left; display:block; width:38%; padding-right:3%; }
+.layout .col42 { float:left; display:block; width:39%; padding-right:3%; }
+.layout .col43 { float:left; display:block; width:40%; padding-right:3%; }
+.layout .col44 { float:left; display:block; width:41%; padding-right:3%; }
+.layout .col45 { float:left; display:block; width:42%; padding-right:3%; }
+.layout .col46 { float:left; display:block; width:43%; padding-right:3%; }
+.layout .col47 { float:left; display:block; width:44%; padding-right:3%; }
+.layout .col48 { float:left; display:block; width:45%; padding-right:3%; }
+.layout .col49 { float:left; display:block; width:46%; padding-right:3%; }
+.layout .col50 { float:left; display:block; width:47%; padding-right:3%; }
+.layout .col51 { float:left; display:block; width:48%; padding-right:3%; }
+.layout .col52 { float:left; display:block; width:49%; padding-right:3%; }
+.layout .col53 { float:left; display:block; width:50%; padding-right:3%; }
+.layout .col54 { float:left; display:block; width:51%; padding-right:3%; }
+.layout .col55 { float:left; display:block; width:52%; padding-right:3%; }
+.layout .col56 { float:left; display:block; width:53%; padding-right:3%; }
+.layout .col57 { float:left; display:block; width:54%; padding-right:3%; }
+.layout .col58 { float:left; display:block; width:55%; padding-right:3%; }
+.layout .col59 { float:left; display:block; width:56%; padding-right:3%; }
+.layout .col60 { float:left; display:block; width:57%; padding-right:3%; }
+.layout .col61 { float:left; display:block; width:58%; padding-right:3%; }
+.layout .col62 { float:left; display:block; width:59%; padding-right:3%; }
+.layout .col63 { float:left; display:block; width:60%; padding-right:3%; }
+.layout .col64 { float:left; display:block; width:61%; padding-right:3%; }
+.layout .col65 { float:left; display:block; width:62%; padding-right:3%; }
+.layout .col66 { float:left; display:block; width:63%; padding-right:3%; }
+.layout .col67 { float:left; display:block; width:64%; padding-right:3%; }
+.layout .col68 { float:left; display:block; width:65%; padding-right:3%; }
+.layout .col69 { float:left; display:block; width:66%; padding-right:3%; }
+.layout .col70 { float:left; display:block; width:67%; padding-right:3%; }
+.layout .col71 { float:left; display:block; width:68%; padding-right:3%; }
+.layout .col72 { float:left; display:block; width:69%; padding-right:3%; }
+.layout .col73 { float:left; display:block; width:70%; padding-right:3%; }
+.layout .col74 { float:left; display:block; width:71%; padding-right:3%; }
+.layout .col75 { float:left; display:block; width:72%; padding-right:3%; }
+.layout .col76 { float:left; display:block; width:73%; padding-right:3%; }
+.layout .col77 { float:left; display:block; width:74%; padding-right:3%; }
+.layout .col78 { float:left; display:block; width:75%; padding-right:3%; }
+.layout .col79 { float:left; display:block; width:76%; padding-right:3%; }
+.layout .col80 { float:left; display:block; width:77%; padding-right:3%; }
+.layout .col81 { float:left; display:block; width:78%; padding-right:3%; }
+.layout .col82 { float:left; display:block; width:79%; padding-right:3%; }
+.layout .col83 { float:left; display:block; width:80%; padding-right:3%; }
+.layout .col84 { float:left; display:block; width:81%; padding-right:3%; }
+.layout .col85 { float:left; display:block; width:82%; padding-right:3%; }
+.layout .col86 { float:left; display:block; width:83%; padding-right:3%; }
+.layout .col87 { float:left; display:block; width:84%; padding-right:3%; }
+.layout .col88 { float:left; display:block; width:85%; padding-right:3%; }
+.layout .col89 { float:left; display:block; width:86%; padding-right:3%; }
+.layout .col90 { float:left; display:block; width:87%; padding-right:3%; }
+.layout .col91 { float:left; display:block; width:88%; padding-right:3%; }
+.layout .col92 { float:left; display:block; width:89%; padding-right:3%; }
+.layout .col93 { float:left; display:block; width:90%; padding-right:3%; }
+.layout .col94 { float:left; display:block; width:91%; padding-right:3%; }
+.layout .col95 { float:left; display:block; width:92%; padding-right:3%; }
+.layout .col96 { float:left; display:block; width:93%; padding-right:3%; }
+.layout .col97 { float:left; display:block; width:94%; padding-right:3%; }
+.layout .col98 { float:left; display:block; width:95%; padding-right:3%; }
+.layout .col99 { float:left; display:block; width:96%; padding-right:3%; }
+
+/* Float without Padding */
+.layout .ft1  { float:left; display:block; width: 1%; padding-right:0%; }
+.layout .ft2  { float:left; display:block; width: 2%; padding-right:0%; }
+.layout .ft3  { float:left; display:block; width: 3%; padding-right:0%; }
+.layout .ft4  { float:left; display:block; width: 4%; padding-right:0%; }
+.layout .ft5  { float:left; display:block; width: 5%; padding-right:0%; }
+.layout .ft6  { float:left; display:block; width: 6%; padding-right:0%; }
+.layout .ft7  { float:left; display:block; width: 7%; padding-right:0%; }
+.layout .ft8  { float:left; display:block; width: 8%; padding-right:0%; }
+.layout .ft9  { float:left; display:block; width: 9%; padding-right:0%; }
+.layout .ft10 { float:left; display:block; width:10%; padding-right:0%; }
+.layout .ft11 { float:left; display:block; width:11%; padding-right:0%; }
+.layout .ft12 { float:left; display:block; width:12%; padding-right:0%; }
+.layout .ft13 { float:left; display:block; width:13%; padding-right:0%; }
+.layout .ft14 { float:left; display:block; width:14%; padding-right:0%; }
+.layout .ft15 { float:left; display:block; width:15%; padding-right:0%; }
+.layout .ft16 { float:left; display:block; width:16%; padding-right:0%; }
+.layout .ft17 { float:left; display:block; width:17%; padding-right:0%; }
+.layout .ft18 { float:left; display:block; width:18%; padding-right:0%; }
+.layout .ft19 { float:left; display:block; width:19%; padding-right:0%; }
+.layout .ft20 { float:left; display:block; width:20%; padding-right:0%; }
+.layout .ft21 { float:left; display:block; width:21%; padding-right:0%; }
+.layout .ft22 { float:left; display:block; width:22%; padding-right:0%; }
+.layout .ft23 { float:left; display:block; width:23%; padding-right:0%; }
+.layout .ft24 { float:left; display:block; width:24%; padding-right:0%; }
+.layout .ft25 { float:left; display:block; width:25%; padding-right:0%; }
+.layout .ft26 { float:left; display:block; width:26%; padding-right:0%; }
+.layout .ft27 { float:left; display:block; width:27%; padding-right:0%; }
+.layout .ft28 { float:left; display:block; width:28%; padding-right:0%; }
+.layout .ft29 { float:left; display:block; width:29%; padding-right:0%; }
+.layout .ft30 { float:left; display:block; width:30%; padding-right:0%; }
+.layout .ft31 { float:left; display:block; width:31%; padding-right:0%; }
+.layout .ft32 { float:left; display:block; width:32%; padding-right:0%; }
+.layout .ft33 { float:left; display:block; width:33%; padding-right:0%; }
+.layout .ft34 { float:left; display:block; width:34%; padding-right:0%; }
+.layout .ft35 { float:left; display:block; width:35%; padding-right:0%; }
+.layout .ft36 { float:left; display:block; width:36%; padding-right:0%; }
+.layout .ft37 { float:left; display:block; width:37%; padding-right:0%; }
+.layout .ft38 { float:left; display:block; width:38%; padding-right:0%; }
+.layout .ft39 { float:left; display:block; width:39%; padding-right:0%; }
+.layout .ft40 { float:left; display:block; width:40%; padding-right:0%; }
+.layout .ft41 { float:left; display:block; width:41%; padding-right:0%; }
+.layout .ft42 { float:left; display:block; width:42%; padding-right:0%; }
+.layout .ft43 { float:left; display:block; width:43%; padding-right:0%; }
+.layout .ft44 { float:left; display:block; width:44%; padding-right:0%; }
+.layout .ft45 { float:left; display:block; width:45%; padding-right:0%; }
+.layout .ft46 { float:left; display:block; width:46%; padding-right:0%; }
+.layout .ft47 { float:left; display:block; width:47%; padding-right:0%; }
+.layout .ft48 { float:left; display:block; width:48%; padding-right:0%; }
+.layout .ft49 { float:left; display:block; width:49%; padding-right:0%; }
+.layout .ft50 { float:left; display:block; width:50%; padding-right:0%; }
+.layout .ft51 { float:left; display:block; width:51%; padding-right:0%; }
+.layout .ft52 { float:left; display:block; width:52%; padding-right:0%; }
+.layout .ft53 { float:left; display:block; width:53%; padding-right:0%; }
+.layout .ft54 { float:left; display:block; width:54%; padding-right:0%; }
+.layout .ft55 { float:left; display:block; width:55%; padding-right:0%; }
+.layout .ft56 { float:left; display:block; width:56%; padding-right:0%; }
+.layout .ft57 { float:left; display:block; width:57%; padding-right:0%; }
+.layout .ft58 { float:left; display:block; width:58%; padding-right:0%; }
+.layout .ft59 { float:left; display:block; width:59%; padding-right:0%; }
+.layout .ft60 { float:left; display:block; width:60%; padding-right:0%; }
+.layout .ft61 { float:left; display:block; width:61%; padding-right:0%; }
+.layout .ft62 { float:left; display:block; width:62%; padding-right:0%; }
+.layout .ft63 { float:left; display:block; width:63%; padding-right:0%; }
+.layout .ft64 { float:left; display:block; width:64%; padding-right:0%; }
+.layout .ft65 { float:left; display:block; width:65%; padding-right:0%; }
+.layout .ft66 { float:left; display:block; width:66%; padding-right:0%; }
+.layout .ft67 { float:left; display:block; width:67%; padding-right:0%; }
+.layout .ft68 { float:left; display:block; width:68%; padding-right:0%; }
+.layout .ft69 { float:left; display:block; width:69%; padding-right:0%; }
+.layout .ft70 { float:left; display:block; width:70%; padding-right:0%; }
+.layout .ft71 { float:left; display:block; width:71%; padding-right:0%; }
+.layout .ft72 { float:left; display:block; width:72%; padding-right:0%; }
+.layout .ft73 { float:left; display:block; width:73%; padding-right:0%; }
+.layout .ft74 { float:left; display:block; width:74%; padding-right:0%; }
+.layout .ft75 { float:left; display:block; width:75%; padding-right:0%; }
+.layout .ft76 { float:left; display:block; width:76%; padding-right:0%; }
+.layout .ft77 { float:left; display:block; width:77%; padding-right:0%; }
+.layout .ft78 { float:left; display:block; width:78%; padding-right:0%; }
+.layout .ft79 { float:left; display:block; width:79%; padding-right:0%; }
+.layout .ft80 { float:left; display:block; width:80%; padding-right:0%; }
+.layout .ft81 { float:left; display:block; width:81%; padding-right:0%; }
+.layout .ft82 { float:left; display:block; width:82%; padding-right:0%; }
+.layout .ft83 { float:left; display:block; width:83%; padding-right:0%; }
+.layout .ft84 { float:left; display:block; width:84%; padding-right:0%; }
+.layout .ft85 { float:left; display:block; width:85%; padding-right:0%; }
+.layout .ft86 { float:left; display:block; width:86%; padding-right:0%; }
+.layout .ft87 { float:left; display:block; width:87%; padding-right:0%; }
+.layout .ft88 { float:left; display:block; width:88%; padding-right:0%; }
+.layout .ft89 { float:left; display:block; width:89%; padding-right:0%; }
+.layout .ft90 { float:left; display:block; width:90%; padding-right:0%; }
+.layout .ft91 { float:left; display:block; width:91%; padding-right:0%; }
+.layout .ft92 { float:left; display:block; width:92%; padding-right:0%; }
+.layout .ft93 { float:left; display:block; width:93%; padding-right:0%; }
+.layout .ft94 { float:left; display:block; width:94%; padding-right:0%; }
+.layout .ft95 { float:left; display:block; width:95%; padding-right:0%; }
+.layout .ft96 { float:left; display:block; width:96%; padding-right:0%; }
+.layout .ft97 { float:left; display:block; width:97%; padding-right:0%; }
+.layout .ft98 { float:left; display:block; width:98%; padding-right:0%; }
+.layout .ft99 { float:left; display:block; width:99%; padding-right:0%; }
+
+/* Absolute Layout */
+.layout .abs { position: absolute; z-index: 10; }
+/* Absolute Positioning: top (top), bottom (bot), left (lt), right (rt) */
+.layout .top0   { top:  0%; } .layout .bot0   { bottom:  0%; } .layout .lt0   { left:  0%; } .layout .rt0   { right:  0%; }
+.layout .top1   { top:  1%; } .layout .bot1   { bottom:  1%; } .layout .lt1   { left:  1%; } .layout .rt1   { right:  1%; }
+.layout .top2   { top:  2%; } .layout .bot2   { bottom:  2%; } .layout .lt2   { left:  2%; } .layout .rt2   { right:  2%; }
+.layout .top3   { top:  3%; } .layout .bot3   { bottom:  3%; } .layout .lt3   { left:  3%; } .layout .rt3   { right:  3%; }
+.layout .top4   { top:  4%; } .layout .bot4   { bottom:  4%; } .layout .lt4   { left:  4%; } .layout .rt4   { right:  4%; }
+.layout .top5   { top:  5%; } .layout .bot5   { bottom:  5%; } .layout .lt5   { left:  5%; } .layout .rt5   { right:  5%; }
+.layout .top6   { top:  6%; } .layout .bot6   { bottom:  6%; } .layout .lt6   { left:  6%; } .layout .rt6   { right:  6%; }
+.layout .top7   { top:  7%; } .layout .bot7   { bottom:  7%; } .layout .lt7   { left:  7%; } .layout .rt7   { right:  7%; }
+.layout .top8   { top:  8%; } .layout .bot8   { bottom:  8%; } .layout .lt8   { left:  8%; } .layout .rt8   { right:  8%; }
+.layout .top9   { top:  9%; } .layout .bot9   { bottom:  9%; } .layout .lt9   { left:  9%; } .layout .rt9   { right:  9%; }
+.layout .top10  { top: 10%; } .layout .bot10  { bottom: 10%; } .layout .lt10  { left: 10%; } .layout .rt10  { right: 10%; }
+.layout .top11  { top: 11%; } .layout .bot11  { bottom: 11%; } .layout .lt11  { left: 11%; } .layout .rt11  { right: 11%; }
+.layout .top12  { top: 12%; } .layout .bot12  { bottom: 12%; } .layout .lt12  { left: 12%; } .layout .rt12  { right: 12%; }
+.layout .top13  { top: 13%; } .layout .bot13  { bottom: 13%; } .layout .lt13  { left: 13%; } .layout .rt13  { right: 13%; }
+.layout .top14  { top: 14%; } .layout .bot14  { bottom: 14%; } .layout .lt14  { left: 14%; } .layout .rt14  { right: 14%; }
+.layout .top15  { top: 15%; } .layout .bot15  { bottom: 15%; } .layout .lt15  { left: 15%; } .layout .rt15  { right: 15%; }
+.layout .top16  { top: 16%; } .layout .bot16  { bottom: 16%; } .layout .lt16  { left: 16%; } .layout .rt16  { right: 16%; }
+.layout .top17  { top: 17%; } .layout .bot17  { bottom: 17%; } .layout .lt17  { left: 17%; } .layout .rt17  { right: 17%; }
+.layout .top18  { top: 18%; } .layout .bot18  { bottom: 18%; } .layout .lt18  { left: 18%; } .layout .rt18  { right: 18%; }
+.layout .top19  { top: 19%; } .layout .bot19  { bottom: 19%; } .layout .lt19  { left: 19%; } .layout .rt19  { right: 19%; }
+.layout .top20  { top: 20%; } .layout .bot20  { bottom: 20%; } .layout .lt20  { left: 20%; } .layout .rt20  { right: 20%; }
+.layout .top21  { top: 21%; } .layout .bot21  { bottom: 21%; } .layout .lt21  { left: 21%; } .layout .rt21  { right: 21%; }
+.layout .top22  { top: 22%; } .layout .bot22  { bottom: 22%; } .layout .lt22  { left: 22%; } .layout .rt22  { right: 22%; }
+.layout .top23  { top: 23%; } .layout .bot23  { bottom: 23%; } .layout .lt23  { left: 23%; } .layout .rt23  { right: 23%; }
+.layout .top24  { top: 24%; } .layout .bot24  { bottom: 24%; } .layout .lt24  { left: 24%; } .layout .rt24  { right: 24%; }
+.layout .top25  { top: 25%; } .layout .bot25  { bottom: 25%; } .layout .lt25  { left: 25%; } .layout .rt25  { right: 25%; }
+.layout .top26  { top: 26%; } .layout .bot26  { bottom: 26%; } .layout .lt26  { left: 26%; } .layout .rt26  { right: 26%; }
+.layout .top27  { top: 27%; } .layout .bot27  { bottom: 27%; } .layout .lt27  { left: 27%; } .layout .rt27  { right: 27%; }
+.layout .top28  { top: 28%; } .layout .bot28  { bottom: 28%; } .layout .lt28  { left: 28%; } .layout .rt28  { right: 28%; }
+.layout .top29  { top: 29%; } .layout .bot29  { bottom: 29%; } .layout .lt29  { left: 29%; } .layout .rt29  { right: 29%; }
+.layout .top30  { top: 30%; } .layout .bot30  { bottom: 30%; } .layout .lt30  { left: 30%; } .layout .rt30  { right: 30%; }
+.layout .top31  { top: 31%; } .layout .bot31  { bottom: 31%; } .layout .lt31  { left: 31%; } .layout .rt31  { right: 31%; }
+.layout .top32  { top: 32%; } .layout .bot32  { bottom: 32%; } .layout .lt32  { left: 32%; } .layout .rt32  { right: 32%; }
+.layout .top33  { top: 33%; } .layout .bot33  { bottom: 33%; } .layout .lt33  { left: 33%; } .layout .rt33  { right: 33%; }
+.layout .top34  { top: 34%; } .layout .bot34  { bottom: 34%; } .layout .lt34  { left: 34%; } .layout .rt34  { right: 34%; }
+.layout .top35  { top: 35%; } .layout .bot35  { bottom: 35%; } .layout .lt35  { left: 35%; } .layout .rt35  { right: 35%; }
+.layout .top36  { top: 36%; } .layout .bot36  { bottom: 36%; } .layout .lt36  { left: 36%; } .layout .rt36  { right: 36%; }
+.layout .top37  { top: 37%; } .layout .bot37  { bottom: 37%; } .layout .lt37  { left: 37%; } .layout .rt37  { right: 37%; }
+.layout .top38  { top: 38%; } .layout .bot38  { bottom: 38%; } .layout .lt38  { left: 38%; } .layout .rt38  { right: 38%; }
+.layout .top39  { top: 39%; } .layout .bot39  { bottom: 39%; } .layout .lt39  { left: 39%; } .layout .rt39  { right: 39%; }
+.layout .top40  { top: 40%; } .layout .bot40  { bottom: 40%; } .layout .lt40  { left: 40%; } .layout .rt40  { right: 40%; }
+.layout .top41  { top: 41%; } .layout .bot41  { bottom: 41%; } .layout .lt41  { left: 41%; } .layout .rt41  { right: 41%; }
+.layout .top42  { top: 42%; } .layout .bot42  { bottom: 42%; } .layout .lt42  { left: 42%; } .layout .rt42  { right: 42%; }
+.layout .top43  { top: 43%; } .layout .bot43  { bottom: 43%; } .layout .lt43  { left: 43%; } .layout .rt43  { right: 43%; }
+.layout .top44  { top: 44%; } .layout .bot44  { bottom: 44%; } .layout .lt44  { left: 44%; } .layout .rt44  { right: 44%; }
+.layout .top45  { top: 45%; } .layout .bot45  { bottom: 45%; } .layout .lt45  { left: 45%; } .layout .rt45  { right: 45%; }
+.layout .top46  { top: 46%; } .layout .bot46  { bottom: 46%; } .layout .lt46  { left: 46%; } .layout .rt46  { right: 46%; }
+.layout .top47  { top: 47%; } .layout .bot47  { bottom: 47%; } .layout .lt47  { left: 47%; } .layout .rt47  { right: 47%; }
+.layout .top48  { top: 48%; } .layout .bot48  { bottom: 48%; } .layout .lt48  { left: 48%; } .layout .rt48  { right: 48%; }
+.layout .top49  { top: 49%; } .layout .bot49  { bottom: 49%; } .layout .lt49  { left: 49%; } .layout .rt49  { right: 49%; }
+.layout .top50  { top: 50%; } .layout .bot50  { bottom: 50%; } .layout .lt50  { left: 50%; } .layout .rt50  { right: 50%; }
+.layout .top51  { top: 51%; } .layout .bot51  { bottom: 51%; } .layout .lt51  { left: 51%; } .layout .rt51  { right: 51%; }
+.layout .top52  { top: 52%; } .layout .bot52  { bottom: 52%; } .layout .lt52  { left: 52%; } .layout .rt52  { right: 52%; }
+.layout .top53  { top: 53%; } .layout .bot53  { bottom: 53%; } .layout .lt53  { left: 53%; } .layout .rt53  { right: 53%; }
+.layout .top54  { top: 54%; } .layout .bot54  { bottom: 54%; } .layout .lt54  { left: 54%; } .layout .rt54  { right: 54%; }
+.layout .top55  { top: 55%; } .layout .bot55  { bottom: 55%; } .layout .lt55  { left: 55%; } .layout .rt55  { right: 55%; }
+.layout .top56  { top: 56%; } .layout .bot56  { bottom: 56%; } .layout .lt56  { left: 56%; } .layout .rt56  { right: 56%; }
+.layout .top57  { top: 57%; } .layout .bot57  { bottom: 57%; } .layout .lt57  { left: 57%; } .layout .rt57  { right: 57%; }
+.layout .top58  { top: 58%; } .layout .bot58  { bottom: 58%; } .layout .lt58  { left: 58%; } .layout .rt58  { right: 58%; }
+.layout .top59  { top: 59%; } .layout .bot59  { bottom: 59%; } .layout .lt59  { left: 59%; } .layout .rt59  { right: 59%; }
+.layout .top60  { top: 60%; } .layout .bot60  { bottom: 60%; } .layout .lt60  { left: 60%; } .layout .rt60  { right: 60%; }
+.layout .top61  { top: 61%; } .layout .bot61  { bottom: 61%; } .layout .lt61  { left: 61%; } .layout .rt61  { right: 61%; }
+.layout .top62  { top: 62%; } .layout .bot62  { bottom: 62%; } .layout .lt62  { left: 62%; } .layout .rt62  { right: 62%; }
+.layout .top63  { top: 63%; } .layout .bot63  { bottom: 63%; } .layout .lt63  { left: 63%; } .layout .rt63  { right: 63%; }
+.layout .top64  { top: 64%; } .layout .bot64  { bottom: 64%; } .layout .lt64  { left: 64%; } .layout .rt64  { right: 64%; }
+.layout .top65  { top: 65%; } .layout .bot65  { bottom: 65%; } .layout .lt65  { left: 65%; } .layout .rt65  { right: 65%; }
+.layout .top66  { top: 66%; } .layout .bot66  { bottom: 66%; } .layout .lt66  { left: 66%; } .layout .rt66  { right: 66%; }
+.layout .top67  { top: 67%; } .layout .bot67  { bottom: 67%; } .layout .lt67  { left: 67%; } .layout .rt67  { right: 67%; }
+.layout .top68  { top: 68%; } .layout .bot68  { bottom: 68%; } .layout .lt68  { left: 68%; } .layout .rt68  { right: 68%; }
+.layout .top69  { top: 69%; } .layout .bot69  { bottom: 69%; } .layout .lt69  { left: 69%; } .layout .rt69  { right: 69%; }
+.layout .top70  { top: 70%; } .layout .bot70  { bottom: 70%; } .layout .lt70  { left: 70%; } .layout .rt70  { right: 70%; }
+.layout .top71  { top: 71%; } .layout .bot71  { bottom: 71%; } .layout .lt71  { left: 71%; } .layout .rt71  { right: 71%; }
+.layout .top72  { top: 72%; } .layout .bot72  { bottom: 72%; } .layout .lt72  { left: 72%; } .layout .rt72  { right: 72%; }
+.layout .top73  { top: 73%; } .layout .bot73  { bottom: 73%; } .layout .lt73  { left: 73%; } .layout .rt73  { right: 73%; }
+.layout .top74  { top: 74%; } .layout .bot74  { bottom: 74%; } .layout .lt74  { left: 74%; } .layout .rt74  { right: 74%; }
+.layout .top75  { top: 75%; } .layout .bot75  { bottom: 75%; } .layout .lt75  { left: 75%; } .layout .rt75  { right: 75%; }
+.layout .top76  { top: 76%; } .layout .bot76  { bottom: 76%; } .layout .lt76  { left: 76%; } .layout .rt76  { right: 76%; }
+.layout .top77  { top: 77%; } .layout .bot77  { bottom: 77%; } .layout .lt77  { left: 77%; } .layout .rt77  { right: 77%; }
+.layout .top78  { top: 78%; } .layout .bot78  { bottom: 78%; } .layout .lt78  { left: 78%; } .layout .rt78  { right: 78%; }
+.layout .top79  { top: 79%; } .layout .bot79  { bottom: 79%; } .layout .lt79  { left: 79%; } .layout .rt79  { right: 79%; }
+.layout .top80  { top: 80%; } .layout .bot80  { bottom: 80%; } .layout .lt80  { left: 80%; } .layout .rt80  { right: 80%; }
+.layout .top81  { top: 81%; } .layout .bot81  { bottom: 81%; } .layout .lt81  { left: 81%; } .layout .rt81  { right: 81%; }
+.layout .top82  { top: 82%; } .layout .bot82  { bottom: 82%; } .layout .lt82  { left: 82%; } .layout .rt82  { right: 82%; }
+.layout .top83  { top: 83%; } .layout .bot83  { bottom: 83%; } .layout .lt83  { left: 83%; } .layout .rt83  { right: 83%; }
+.layout .top84  { top: 84%; } .layout .bot84  { bottom: 84%; } .layout .lt84  { left: 84%; } .layout .rt84  { right: 84%; }
+.layout .top85  { top: 85%; } .layout .bot85  { bottom: 85%; } .layout .lt85  { left: 85%; } .layout .rt85  { right: 85%; }
+.layout .top86  { top: 86%; } .layout .bot86  { bottom: 86%; } .layout .lt86  { left: 86%; } .layout .rt86  { right: 86%; }
+.layout .top87  { top: 87%; } .layout .bot87  { bottom: 87%; } .layout .lt87  { left: 87%; } .layout .rt87  { right: 87%; }
+.layout .top88  { top: 88%; } .layout .bot88  { bottom: 88%; } .layout .lt88  { left: 88%; } .layout .rt88  { right: 88%; }
+.layout .top89  { top: 89%; } .layout .bot89  { bottom: 89%; } .layout .lt89  { left: 89%; } .layout .rt89  { right: 89%; }
+.layout .top90  { top: 90%; } .layout .bot90  { bottom: 90%; } .layout .lt90  { left: 90%; } .layout .rt90  { right: 90%; }
+.layout .top91  { top: 91%; } .layout .bot91  { bottom: 91%; } .layout .lt91  { left: 91%; } .layout .rt91  { right: 91%; }
+.layout .top92  { top: 92%; } .layout .bot92  { bottom: 92%; } .layout .lt92  { left: 92%; } .layout .rt92  { right: 92%; }
+.layout .top93  { top: 93%; } .layout .bot93  { bottom: 93%; } .layout .lt93  { left: 93%; } .layout .rt93  { right: 93%; }
+.layout .top94  { top: 94%; } .layout .bot94  { bottom: 94%; } .layout .lt94  { left: 94%; } .layout .rt94  { right: 94%; }
+.layout .top95  { top: 95%; } .layout .bot95  { bottom: 95%; } .layout .lt95  { left: 95%; } .layout .rt95  { right: 95%; }
+.layout .top96  { top: 96%; } .layout .bot96  { bottom: 96%; } .layout .lt96  { left: 96%; } .layout .rt96  { right: 96%; }
+.layout .top97  { top: 97%; } .layout .bot97  { bottom: 97%; } .layout .lt97  { left: 97%; } .layout .rt97  { right: 97%; }
+.layout .top98  { top: 98%; } .layout .bot98  { bottom: 98%; } .layout .lt98  { left: 98%; } .layout .rt98  { right: 98%; }
+.layout .top99  { top: 99%; } .layout .bot99  { bottom: 99%; } .layout .lt99  { left: 99%; } .layout .rt99  { right: 99%; }
+.layout .top100 { top:100%; } .layout .bot100 { bottom:100%; } .layout .lt100 { left:100%; } .layout .rt100 { right:100%; }
+
+/* Sizes */
+.layout .wt0   { width:  0%; flex-basis:  0%; } .layout .ht0   { height:  0%; flex-basis:  0%; }
+.layout .wt1   { width:  1%; flex-basis:  1%; } .layout .ht1   { height:  1%; flex-basis:  1%; }
+.layout .wt2   { width:  2%; flex-basis:  2%; } .layout .ht2   { height:  2%; flex-basis:  2%; }
+.layout .wt3   { width:  3%; flex-basis:  3%; } .layout .ht3   { height:  3%; flex-basis:  3%; }
+.layout .wt4   { width:  4%; flex-basis:  4%; } .layout .ht4   { height:  4%; flex-basis:  4%; }
+.layout .wt5   { width:  5%; flex-basis:  5%; } .layout .ht5   { height:  5%; flex-basis:  5%; }
+.layout .wt6   { width:  6%; flex-basis:  6%; } .layout .ht6   { height:  6%; flex-basis:  6%; }
+.layout .wt7   { width:  7%; flex-basis:  7%; } .layout .ht7   { height:  7%; flex-basis:  7%; }
+.layout .wt8   { width:  8%; flex-basis:  8%; } .layout .ht8   { height:  8%; flex-basis:  8%; }
+.layout .wt9   { width:  9%; flex-basis:  9%; } .layout .ht9   { height:  9%; flex-basis:  9%; }
+.layout .wt10  { width: 10%; flex-basis: 10%; } .layout .ht10  { height: 10%; flex-basis: 10%; }
+.layout .wt11  { width: 11%; flex-basis: 11%; } .layout .ht11  { height: 11%; flex-basis: 11%; }
+.layout .wt12  { width: 12%; flex-basis: 12%; } .layout .ht12  { height: 12%; flex-basis: 12%; }
+.layout .wt13  { width: 13%; flex-basis: 13%; } .layout .ht13  { height: 13%; flex-basis: 13%; }
+.layout .wt14  { width: 14%; flex-basis: 14%; } .layout .ht14  { height: 14%; flex-basis: 14%; }
+.layout .wt15  { width: 15%; flex-basis: 15%; } .layout .ht15  { height: 15%; flex-basis: 15%; }
+.layout .wt16  { width: 16%; flex-basis: 16%; } .layout .ht16  { height: 16%; flex-basis: 16%; }
+.layout .wt17  { width: 17%; flex-basis: 17%; } .layout .ht17  { height: 17%; flex-basis: 17%; }
+.layout .wt18  { width: 18%; flex-basis: 18%; } .layout .ht18  { height: 18%; flex-basis: 18%; }
+.layout .wt19  { width: 19%; flex-basis: 19%; } .layout .ht19  { height: 19%; flex-basis: 19%; }
+.layout .wt20  { width: 20%; flex-basis: 20%; } .layout .ht20  { height: 20%; flex-basis: 20%; }
+.layout .wt21  { width: 21%; flex-basis: 21%; } .layout .ht21  { height: 21%; flex-basis: 21%; }
+.layout .wt22  { width: 22%; flex-basis: 22%; } .layout .ht22  { height: 22%; flex-basis: 22%; }
+.layout .wt23  { width: 23%; flex-basis: 23%; } .layout .ht23  { height: 23%; flex-basis: 23%; }
+.layout .wt24  { width: 24%; flex-basis: 24%; } .layout .ht24  { height: 24%; flex-basis: 24%; }
+.layout .wt25  { width: 25%; flex-basis: 25%; } .layout .ht25  { height: 25%; flex-basis: 25%; }
+.layout .wt26  { width: 26%; flex-basis: 26%; } .layout .ht26  { height: 26%; flex-basis: 26%; }
+.layout .wt27  { width: 27%; flex-basis: 27%; } .layout .ht27  { height: 27%; flex-basis: 27%; }
+.layout .wt28  { width: 28%; flex-basis: 28%; } .layout .ht28  { height: 28%; flex-basis: 28%; }
+.layout .wt29  { width: 29%; flex-basis: 29%; } .layout .ht29  { height: 29%; flex-basis: 29%; }
+.layout .wt30  { width: 30%; flex-basis: 30%; } .layout .ht30  { height: 30%; flex-basis: 30%; }
+.layout .wt31  { width: 31%; flex-basis: 31%; } .layout .ht31  { height: 31%; flex-basis: 31%; }
+.layout .wt32  { width: 32%; flex-basis: 32%; } .layout .ht32  { height: 32%; flex-basis: 32%; }
+.layout .wt33  { width: 33%; flex-basis: 33%; } .layout .ht33  { height: 33%; flex-basis: 33%; }
+.layout .wt34  { width: 34%; flex-basis: 34%; } .layout .ht34  { height: 34%; flex-basis: 34%; }
+.layout .wt35  { width: 35%; flex-basis: 35%; } .layout .ht35  { height: 35%; flex-basis: 35%; }
+.layout .wt36  { width: 36%; flex-basis: 36%; } .layout .ht36  { height: 36%; flex-basis: 36%; }
+.layout .wt37  { width: 37%; flex-basis: 37%; } .layout .ht37  { height: 37%; flex-basis: 37%; }
+.layout .wt38  { width: 38%; flex-basis: 38%; } .layout .ht38  { height: 38%; flex-basis: 38%; }
+.layout .wt39  { width: 39%; flex-basis: 39%; } .layout .ht39  { height: 39%; flex-basis: 39%; }
+.layout .wt40  { width: 40%; flex-basis: 40%; } .layout .ht40  { height: 40%; flex-basis: 40%; }
+.layout .wt41  { width: 41%; flex-basis: 41%; } .layout .ht41  { height: 41%; flex-basis: 41%; }
+.layout .wt42  { width: 42%; flex-basis: 42%; } .layout .ht42  { height: 42%; flex-basis: 42%; }
+.layout .wt43  { width: 43%; flex-basis: 43%; } .layout .ht43  { height: 43%; flex-basis: 43%; }
+.layout .wt44  { width: 44%; flex-basis: 44%; } .layout .ht44  { height: 44%; flex-basis: 44%; }
+.layout .wt45  { width: 45%; flex-basis: 45%; } .layout .ht45  { height: 45%; flex-basis: 45%; }
+.layout .wt46  { width: 46%; flex-basis: 46%; } .layout .ht46  { height: 46%; flex-basis: 46%; }
+.layout .wt47  { width: 47%; flex-basis: 47%; } .layout .ht47  { height: 47%; flex-basis: 47%; }
+.layout .wt48  { width: 48%; flex-basis: 48%; } .layout .ht48  { height: 48%; flex-basis: 48%; }
+.layout .wt49  { width: 49%; flex-basis: 49%; } .layout .ht49  { height: 49%; flex-basis: 49%; }
+.layout .wt50  { width: 50%; flex-basis: 50%; } .layout .ht50  { height: 50%; flex-basis: 50%; }
+.layout .wt51  { width: 51%; flex-basis: 51%; } .layout .ht51  { height: 51%; flex-basis: 51%; }
+.layout .wt52  { width: 52%; flex-basis: 52%; } .layout .ht52  { height: 52%; flex-basis: 52%; }
+.layout .wt53  { width: 53%; flex-basis: 53%; } .layout .ht53  { height: 53%; flex-basis: 53%; }
+.layout .wt54  { width: 54%; flex-basis: 54%; } .layout .ht54  { height: 54%; flex-basis: 54%; }
+.layout .wt55  { width: 55%; flex-basis: 55%; } .layout .ht55  { height: 55%; flex-basis: 55%; }
+.layout .wt56  { width: 56%; flex-basis: 56%; } .layout .ht56  { height: 56%; flex-basis: 56%; }
+.layout .wt57  { width: 57%; flex-basis: 57%; } .layout .ht57  { height: 57%; flex-basis: 57%; }
+.layout .wt58  { width: 58%; flex-basis: 58%; } .layout .ht58  { height: 58%; flex-basis: 58%; }
+.layout .wt59  { width: 59%; flex-basis: 59%; } .layout .ht59  { height: 59%; flex-basis: 59%; }
+.layout .wt60  { width: 60%; flex-basis: 60%; } .layout .ht60  { height: 60%; flex-basis: 60%; }
+.layout .wt61  { width: 61%; flex-basis: 61%; } .layout .ht61  { height: 61%; flex-basis: 61%; }
+.layout .wt62  { width: 62%; flex-basis: 62%; } .layout .ht62  { height: 62%; flex-basis: 62%; }
+.layout .wt63  { width: 63%; flex-basis: 63%; } .layout .ht63  { height: 63%; flex-basis: 63%; }
+.layout .wt64  { width: 64%; flex-basis: 64%; } .layout .ht64  { height: 64%; flex-basis: 64%; }
+.layout .wt65  { width: 65%; flex-basis: 65%; } .layout .ht65  { height: 65%; flex-basis: 65%; }
+.layout .wt66  { width: 66%; flex-basis: 66%; } .layout .ht66  { height: 66%; flex-basis: 66%; }
+.layout .wt67  { width: 67%; flex-basis: 67%; } .layout .ht67  { height: 67%; flex-basis: 67%; }
+.layout .wt68  { width: 68%; flex-basis: 68%; } .layout .ht68  { height: 68%; flex-basis: 68%; }
+.layout .wt69  { width: 69%; flex-basis: 69%; } .layout .ht69  { height: 69%; flex-basis: 69%; }
+.layout .wt70  { width: 70%; flex-basis: 70%; } .layout .ht70  { height: 70%; flex-basis: 70%; }
+.layout .wt71  { width: 71%; flex-basis: 71%; } .layout .ht71  { height: 71%; flex-basis: 71%; }
+.layout .wt72  { width: 72%; flex-basis: 72%; } .layout .ht72  { height: 72%; flex-basis: 72%; }
+.layout .wt73  { width: 73%; flex-basis: 73%; } .layout .ht73  { height: 73%; flex-basis: 73%; }
+.layout .wt74  { width: 74%; flex-basis: 74%; } .layout .ht74  { height: 74%; flex-basis: 74%; }
+.layout .wt75  { width: 75%; flex-basis: 75%; } .layout .ht75  { height: 75%; flex-basis: 75%; }
+.layout .wt76  { width: 76%; flex-basis: 76%; } .layout .ht76  { height: 76%; flex-basis: 76%; }
+.layout .wt77  { width: 77%; flex-basis: 77%; } .layout .ht77  { height: 77%; flex-basis: 77%; }
+.layout .wt78  { width: 78%; flex-basis: 78%; } .layout .ht78  { height: 78%; flex-basis: 78%; }
+.layout .wt79  { width: 79%; flex-basis: 79%; } .layout .ht79  { height: 79%; flex-basis: 79%; }
+.layout .wt80  { width: 80%; flex-basis: 80%; } .layout .ht80  { height: 80%; flex-basis: 80%; }
+.layout .wt81  { width: 81%; flex-basis: 81%; } .layout .ht81  { height: 81%; flex-basis: 81%; }
+.layout .wt82  { width: 82%; flex-basis: 82%; } .layout .ht82  { height: 82%; flex-basis: 82%; }
+.layout .wt83  { width: 83%; flex-basis: 83%; } .layout .ht83  { height: 83%; flex-basis: 83%; }
+.layout .wt84  { width: 84%; flex-basis: 84%; } .layout .ht84  { height: 84%; flex-basis: 84%; }
+.layout .wt85  { width: 85%; flex-basis: 85%; } .layout .ht85  { height: 85%; flex-basis: 85%; }
+.layout .wt86  { width: 86%; flex-basis: 86%; } .layout .ht86  { height: 86%; flex-basis: 86%; }
+.layout .wt87  { width: 87%; flex-basis: 87%; } .layout .ht87  { height: 87%; flex-basis: 87%; }
+.layout .wt88  { width: 88%; flex-basis: 88%; } .layout .ht88  { height: 88%; flex-basis: 88%; }
+.layout .wt89  { width: 89%; flex-basis: 89%; } .layout .ht89  { height: 89%; flex-basis: 89%; }
+.layout .wt90  { width: 90%; flex-basis: 90%; } .layout .ht90  { height: 90%; flex-basis: 90%; }
+.layout .wt91  { width: 91%; flex-basis: 91%; } .layout .ht91  { height: 91%; flex-basis: 91%; }
+.layout .wt92  { width: 92%; flex-basis: 92%; } .layout .ht92  { height: 92%; flex-basis: 92%; }
+.layout .wt93  { width: 93%; flex-basis: 93%; } .layout .ht93  { height: 93%; flex-basis: 93%; }
+.layout .wt94  { width: 94%; flex-basis: 94%; } .layout .ht94  { height: 94%; flex-basis: 94%; }
+.layout .wt95  { width: 95%; flex-basis: 95%; } .layout .ht95  { height: 95%; flex-basis: 95%; }
+.layout .wt96  { width: 96%; flex-basis: 96%; } .layout .ht96  { height: 96%; flex-basis: 96%; }
+.layout .wt97  { width: 97%; flex-basis: 97%; } .layout .ht97  { height: 97%; flex-basis: 97%; }
+.layout .wt98  { width: 98%; flex-basis: 98%; } .layout .ht98  { height: 98%; flex-basis: 98%; }
+.layout .wt99  { width: 99%; flex-basis: 99%; } .layout .ht99  { height: 99%; flex-basis: 99%; }
+.layout .wt100 { width:100%; flex-basis:100%; } .layout .ht100 { height:100%; flex-basis:100%; }
+
+/* Opacity */
+.layout .op0  { opacity: 0.00 }
+.layout .op1  { opacity: 0.01 }
+.layout .op2  { opacity: 0.02 }
+.layout .op3  { opacity: 0.03 }
+.layout .op4  { opacity: 0.04 }
+.layout .op5  { opacity: 0.05 }
+.layout .op6  { opacity: 0.06 }
+.layout .op7  { opacity: 0.07 }
+.layout .op8  { opacity: 0.08 }
+.layout .op9  { opacity: 0.09 }
+.layout .op10 { opacity: 0.10 }
+.layout .op11 { opacity: 0.11 }
+.layout .op12 { opacity: 0.12 }
+.layout .op13 { opacity: 0.13 }
+.layout .op14 { opacity: 0.14 }
+.layout .op15 { opacity: 0.15 }
+.layout .op16 { opacity: 0.16 }
+.layout .op17 { opacity: 0.17 }
+.layout .op18 { opacity: 0.18 }
+.layout .op19 { opacity: 0.19 }
+.layout .op20 { opacity: 0.20 }
+.layout .op21 { opacity: 0.21 }
+.layout .op22 { opacity: 0.22 }
+.layout .op23 { opacity: 0.23 }
+.layout .op24 { opacity: 0.24 }
+.layout .op25 { opacity: 0.25 }
+.layout .op26 { opacity: 0.26 }
+.layout .op27 { opacity: 0.27 }
+.layout .op28 { opacity: 0.28 }
+.layout .op29 { opacity: 0.29 }
+.layout .op30 { opacity: 0.30 }
+.layout .op31 { opacity: 0.31 }
+.layout .op32 { opacity: 0.32 }
+.layout .op33 { opacity: 0.33 }
+.layout .op34 { opacity: 0.34 }
+.layout .op35 { opacity: 0.35 }
+.layout .op36 { opacity: 0.36 }
+.layout .op37 { opacity: 0.37 }
+.layout .op38 { opacity: 0.38 }
+.layout .op39 { opacity: 0.39 }
+.layout .op40 { opacity: 0.40 }
+.layout .op41 { opacity: 0.41 }
+.layout .op42 { opacity: 0.42 }
+.layout .op43 { opacity: 0.43 }
+.layout .op44 { opacity: 0.44 }
+.layout .op45 { opacity: 0.45 }
+.layout .op46 { opacity: 0.46 }
+.layout .op47 { opacity: 0.47 }
+.layout .op48 { opacity: 0.48 }
+.layout .op49 { opacity: 0.49 }
+.layout .op50 { opacity: 0.50 }
+.layout .op51 { opacity: 0.51 }
+.layout .op52 { opacity: 0.52 }
+.layout .op53 { opacity: 0.53 }
+.layout .op54 { opacity: 0.54 }
+.layout .op55 { opacity: 0.55 }
+.layout .op56 { opacity: 0.56 }
+.layout .op57 { opacity: 0.57 }
+.layout .op58 { opacity: 0.58 }
+.layout .op59 { opacity: 0.59 }
+.layout .op60 { opacity: 0.60 }
+.layout .op61 { opacity: 0.61 }
+.layout .op62 { opacity: 0.62 }
+.layout .op63 { opacity: 0.63 }
+.layout .op64 { opacity: 0.64 }
+.layout .op65 { opacity: 0.65 }
+.layout .op66 { opacity: 0.66 }
+.layout .op67 { opacity: 0.67 }
+.layout .op68 { opacity: 0.68 }
+.layout .op69 { opacity: 0.69 }
+.layout .op70 { opacity: 0.70 }
+.layout .op71 { opacity: 0.71 }
+.layout .op72 { opacity: 0.72 }
+.layout .op73 { opacity: 0.73 }
+.layout .op74 { opacity: 0.74 }
+.layout .op75 { opacity: 0.75 }
+.layout .op76 { opacity: 0.76 }
+.layout .op77 { opacity: 0.77 }
+.layout .op78 { opacity: 0.78 }
+.layout .op79 { opacity: 0.79 }
+.layout .op80 { opacity: 0.80 }
+.layout .op81 { opacity: 0.81 }
+.layout .op82 { opacity: 0.82 }
+.layout .op83 { opacity: 0.83 }
+.layout .op84 { opacity: 0.84 }
+.layout .op85 { opacity: 0.85 }
+.layout .op86 { opacity: 0.86 }
+.layout .op87 { opacity: 0.87 }
+.layout .op88 { opacity: 0.88 }
+.layout .op89 { opacity: 0.89 }
+.layout .op90 { opacity: 0.90 }
+.layout .op91 { opacity: 0.91 }
+.layout .op92 { opacity: 0.92 }
+.layout .op93 { opacity: 0.93 }
+.layout .op94 { opacity: 0.94 }
+.layout .op95 { opacity: 0.95 }
+.layout .op96 { opacity: 0.96 }
+.layout .op97 { opacity: 0.97 }
+.layout .op98 { opacity: 0.98 }
+.layout .op99 { opacity: 0.99 }
+.layout .op100 { opacity: 1 }
+
+.layout .display-none {
+  display: none;
+}
+.layout .display-block {
+  display: block;
+}
+
