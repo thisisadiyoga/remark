@@ -49,7 +49,7 @@ class: middle, sections
 - Clickable notes .note18[(notable)]
 ]
 
-<br><br><br><br><br>
+<br><br><br><br><br><br><br>
 
 ### Fork
 A fork of remark.js with plugin system is available on my [github](https://github.com/thisisadiyoga/remark/tree/plugins)
@@ -1578,6 +1578,7 @@ base: "https://www.comp.nus.edu.sg/~adi-yoga/"
 ### Motivation
 ### Plugin
 ### Format
+#### Important
 ]
 .ft82[
 ## Format
@@ -1590,8 +1591,27 @@ base: "https://www.comp.nus.edu.sg/~adi-yoga/"
 - Keep the previous `h3` and `h4`
 - Append the new `h3` and `h4`
 - Do not keep `h4` from previous `h3`
+]
 
+---
+
+# Section
+
+.ft15.subsections[
+### Motivation
+### Plugin
+### Format
+#### Important
 #### Example
+]
+.ft82[
+## Format
+- Specify the class name for subsection
+    - By default, it will search for `subsections`
+- Use `h3` for first-level subsection
+- Use `h4` for second-level subsection
+
+### Example
 - The following is used for the current section .note18[(`.ft15` is the formatting to keep the subsection to 15% width, `subsections` is the class to be searched)]
 
 .col51[
@@ -1600,6 +1620,8 @@ base: "https://www.comp.nus.edu.sg/~adi-yoga/"
 ### Motivation
 ### Plugin
 ### Format
+#### Important
+#### Example
 ]
 ```
 ]
@@ -1723,6 +1745,7 @@ base: "https://www.comp.nus.edu.sg/~adi-yoga/"
 ### Motivation
 ### Plugin
 ### Features
+#### Basic
 ]
 .ft82[
 ## Tooltip Features
@@ -1736,8 +1759,22 @@ base: "https://www.comp.nus.edu.sg/~adi-yoga/"
 .tooltip[this one~@~Isn't it cool?]
 ```
     - The default separator between text and content is `~@~`
+]
 
-#### Positition and Size
+---
+
+# Tooltip
+
+.ft15.subsections[
+### Motivation
+### Plugin
+### Features
+#### Basic
+#### Position & Size
+]
+.ft82[
+## Tooltip Features
+### Positition and Size
 - Manually specify the position
     - `.tooltip_top` will show the content on .tooltip_top[top~@~Default is right]
     - There are 4 positions: `.tooltip_top`,`.tooltip_right`, `.tooltip_bottom`, and `.tooltip_left`
@@ -1756,6 +1793,7 @@ base: "https://www.comp.nus.edu.sg/~adi-yoga/"
 ### Plugin
 ### Features
 ### Customisation
+#### Options
 ]
 .ft82[
 ## Customisation
@@ -1770,13 +1808,36 @@ base: "https://www.comp.nus.edu.sg/~adi-yoga/"
         - Default is `~@~` because such combination is not used much
     4. __Underline__: specifies if the text with tooltop should be underlined
         - `true` .note18[(default)] or `false`
-        
+]
+
+---
+
+# Tooltip
+
+.ft15.subsections[
+### Motivation
+### Plugin
+### Features
+### Customisation
+#### Options
 #### Example
+]
+.ft82[
+## Customisation
+### Example
 ```js
 tooltip: {
-  position: 'top', size: 'small', separator: '~~@~~', underline: false
+  position: 'top',
+  size: 'small',
+  separator: '~~@~~',
+  underline: false
 }
 ```
+- Position for `.tooltip` is always top
+- Size for `.tooltip` is always small
+- Separator is `~~@~~`
+- No underline
+- You can still use `.tooltip_large` or `.tooltip_bottom` for more fine-grained control
 ]
 
 ---
@@ -2006,8 +2067,9 @@ What do you mean? African or European swallow?
 .anims-target-tag[tag01]
 ]
 ]
-]
-.ft82[
+
+<br><br><br><br>
+
 #### Code
 .col51[
 ##### Anchor
@@ -2478,7 +2540,20 @@ base: "https://www.comp.nus.edu.sg/~adi-yoga/"
 - Autoplay
 - Currently playing .note18[(rotating)], click to stop autplay
 ]
+]
 
+---
+
+# Player
+
+.ft15.subsections[
+### Motivation
+### Plugin
+### Buttons
+### Customisation
+]
+.ft82[
+## Customisation
 ### Options
 - You can quickly customise the qanvas plugin with 3 options
     1. __Size__: specifies the size of the icons
