@@ -1010,6 +1010,33 @@ def isPrime(n):
 
 ---
 
+# Coder
+
+.ft15.subsections[
+### Motivation
+### Plugin
+### Features
+### Buttons
+### Customisation
+]
+.ft82[
+## Customisation
+### Options
+- You can quickly customise the coder plugin with 1 option
+    1. __Print__: specifies the print function
+        - Default is `print`
+        - For Java, can be customised to `System.out.println`
+
+#### Example
+```js
+coder: {
+  print: 'System.out.println'
+}
+```
+]
+
+---
+
 name: iTools
 class: middle, sections
 

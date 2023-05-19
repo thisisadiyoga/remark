@@ -1,10 +1,14 @@
 (function() {
   /* options
   coder: {
+    print: 'print'
   }
   */
   
   let BASE = '';
+  
+  const DEFAULT_PRINT = 'print';
+  let PRINT = DEFAULT_PRINT;
   
   const BLANK = [
     ['ㅤ',''],
@@ -103,7 +107,7 @@
           clone = codes_processCodes_meta(clone);
           clone = codes_processCodes_cmnt(clone);
           const txt = codes_replaceBlank(clone.textContent);
-          return `print(${txt.trimEnd().slice(1)})\r\n`;
+          return `${PRINT}(${txt.trimEnd().slice(1)})\r\n`;
         } else {
           return '';
         }
@@ -465,6 +469,9 @@
       if (BASE[BASE.length-1] != '/') {
         BASE = BASE + '/';
       }
+    }
+    if (opt && opt.coder && opt.coder.print) {
+      PRINT = opt.coder.print;
     }
     initCoderElements(opt, slideshow);
     initCoderCSS(opt, slideshow);
