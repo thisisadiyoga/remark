@@ -96,10 +96,10 @@
       return function() {
         if(INTV === null) {
           CTX = 0;
-          INTV = setInterval(slideshow.gotoNextSlide, TIME);
-          BTNS[PLAY_BUTTON].innerHTML = `<i class='fa-solid fa-circle-notch rotated0' style="animation:rotator ${TIME/1000}s infinite"></i>`;
+          INTV = setTimeout(slideshow.gotoNextSlide, TIME);
+          BTNS[PLAY_BUTTON].innerHTML = `<i class='fa-solid fa-circle-notch rotated0' style="animation:rotator ${TIME/1000}s linear infinite"></i>`;
         } else {
-          clearInterval(INTV);
+          clearTimeout(INTV);
           INTV = null;
           BTNS[PLAY_BUTTON].innerHTML = `<i class="fa-${BTN[PLAY_BUTTON].fa} fa-${BTN[PLAY_BUTTON].icon}"></i>`;
         }
@@ -130,6 +130,17 @@
       } else {
         BTNS[NEXT_BUTTON].classList.remove('remark-player-button-off');
         BTNS[NEXT_BUTTON].classList.add('remark-player-button-btn');
+      }
+      
+      if(INTV !== null) {
+        CTX = 0;
+        clearTimeout(INTV);
+        INTV = setTimeout(slideshow.gotoNextSlide, TIME);
+        BTNS[PLAY_BUTTON].innerHTML = `<i class='fa-solid fa-circle-notch rotated0' style="animation:rotator ${TIME/1000}s linear infinite"></i>`;
+      } else {
+        clearTimeout(INTV);
+        INTV = null;
+        BTNS[PLAY_BUTTON].innerHTML = `<i class="fa-${BTN[PLAY_BUTTON].fa} fa-${BTN[PLAY_BUTTON].icon}"></i>`;
       }
     }
   
